@@ -1,8 +1,18 @@
 /* Imports the Athelas font from Adobe Typekit */
 @import url("https://use.typekit.net/szb3yzk.css");
 
+/* Imports Majesti Banner font */
+@import url("majesti.css");
+
+
+
 h1 {
     color: #be1e2d;
     margin-left: 20px;
+    font-family: Majesti Banner;
+    text-decoration: underline;
+}
+
+p {
     font-family: Athelas;
 }
