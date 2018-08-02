@@ -1,3 +1,4 @@
+/* Majesti Banner*/
 @font-face {
     font-family: 'Majesti Banner';
     src: url('fonts/majesti/Majesti-Banner-Medium.otf') format('opentype');
@@ -22,41 +23,45 @@
     font-weight: bold;
     font-style: italic;
 }
+
+/* Majesti Banner Heavy */
 @font-face {
-    font-family: 'Majesti Banner';
+    font-family: 'Majesti Banner Heavy';
     src: url('fonts/majesti/Majesti-Banner-Heavy.otf') format('opentype');
-    font-weight: bolder;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Majesti Banner';
+    font-family: 'Majesti Banner Heavy';
     src: url('fonts/majesti/Majesti-Banner-HeavyItalic.otf') format('opentype');
-    font-weight: bolder;
+    font-weight: normal;
     font-style: italic;
 }
+
+/* Majesti Banner Light */
 @font-face {
-    font-family: 'Majesti Banner';
+    font-family: 'Majesti Banner Light';
     src: url('fonts/majesti/Majesti-Banner-Light.otf') format('opentype');
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Majesti Banner';
+    font-family: 'Majesti Banner Light';
     src: url('fonts/majesti/Majesti-Banner-LightItalic.otf') format('opentype');
-    font-weight: lighter;
+    font-weight: normal;
     font-style: italic;
 }
-/* ---UNUSED---
+
+/* Majesti Banner Book */
 @font-face {
-    font-family: 'Majesti Banner';
+    font-family: 'Majesti Banner Book';
     src: url('fonts/majesti/Majesti-Banner-Book.otf') format('opentype');
-    font-weight: 300;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Majesti Banner';
+    font-family: 'Majesti Banner Book';
     src: url('fonts/majesti/Majesti-Banner-BookItalic.otf') format('opentype');
-    font-weight: 300;
+    font-weight: normal;
     font-style: italic;
 }
-*/

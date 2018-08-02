@@ -9,8 +9,13 @@
 h1 {
     color: #be1e2d;
     margin-left: 20px;
-    font-family: Majesti Banner;
+    font-family: Majesti Banner Book;
     text-decoration: underline;
+}
+
+h2 {
+    color: #be1e2d;
+    font-family: Majesti Banner;
 }
 
 p {
