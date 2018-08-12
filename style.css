@@ -5,17 +5,146 @@
 @import url("majesti.css");
 
 
+body {
+	background-color: #F1F1D4;
+}
 
+#container {
+	margin: 20px 50px;
+}
+
+#logo {
+	margin: 0px 50px;
+}
+
+#main {
+	margin: 40px;
+}
+
+#home-text {
+	width: 60%;
+}
+
+/* Navigation Style */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-right: 1px solid #bbb;
+}
+
+nav li a:hover {
+	background-color: #111;
+}
+
+#order-now li {
+	background-color: #be1e2d;
+}
+
+#order-now li a:hover {
+	background-color: #8B1520;
+}
+
+#nav-right li {
+	float: right;
+	border-left: 1px solid #bbb;
+}
+
+#nav-right li a {
+	padding: 7px 16px;
+}
+
+#nav-right a img {
+	max-height: 30px;
+	max-width: 30px;
+}
+
+/* Footer Style */
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	
+}
+
+footer li {
+	float: left;
+}
+
+footer li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-right: 1px solid #bbb;
+}
+
+footer li a:hover {
+	background-color: #111;
+}
+
+#order-now-footer li {
+	background-color: #be1e2d;
+}
+
+#order-now-footer li a:hover {
+	background-color: #8B1520;
+}
+
+#nav-right-footer li {
+	float: right;
+	border-left: 1px solid #bbb;
+}
+
+#nav-right-footer li a {
+	padding: 7px 16px;
+}
+
+#nav-right-footer a img {
+	max-height: 30px;
+	max-width: 30px;
+}
+
+/* Style for the entree of the week image */
+#entree {
+	padding: 0px 0px 10px 0px;
+}
+
+#entree img {
+	max-width: 100%;
+	max-height: 100%;
+	border: 2px solid #000000;
+}
+
+/* Misc Styles */
 h1 {
     color: #be1e2d;
-    margin-left: 20px;
     font-family: Majesti Banner Book;
-    text-decoration: underline;
+    font-size: 32px;
+	margin-bottom: 0px;
 }
 
 h2 {
     color: #be1e2d;
     font-family: Majesti Banner;
+	margin-bottom: 0px;
 }
 
 p {

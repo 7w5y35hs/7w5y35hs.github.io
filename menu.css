@@ -1,0 +1,10 @@
+/* CSS sheet specifically for the menu class from the menu page */
+
+.menu-item {
+	width: 100%;
+}
+
+.menu-image img {
+	max-width: 40%;
+	max-height: 40%;
+}
