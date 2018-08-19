@@ -13,7 +13,7 @@ body {
 	margin: 20px 50px;
 }
 
-#logo {
+.logo {
 	margin: 0px 50px;
 }
 
@@ -23,6 +23,10 @@ body {
 
 #home-text {
 	width: 60%;
+}
+
+#store-info {
+	width: 40%;
 }
 
 /* Navigation Style */
@@ -51,24 +55,24 @@ nav li a:hover {
 	background-color: #111;
 }
 
-#order-now li {
+.order-now li {
 	background-color: #be1e2d;
 }
 
-#order-now li a:hover {
+.order-now li a:hover {
 	background-color: #8B1520;
 }
 
-#nav-right li {
+.nav-right li {
 	float: right;
 	border-left: 1px solid #bbb;
 }
 
-#nav-right li a {
+.nav-right li a {
 	padding: 7px 16px;
 }
 
-#nav-right a img {
+.nav-right a img {
 	max-height: 30px;
 	max-width: 30px;
 }
@@ -98,28 +102,6 @@ footer li a {
 
 footer li a:hover {
 	background-color: #111;
-}
-
-#order-now-footer li {
-	background-color: #be1e2d;
-}
-
-#order-now-footer li a:hover {
-	background-color: #8B1520;
-}
-
-#nav-right-footer li {
-	float: right;
-	border-left: 1px solid #bbb;
-}
-
-#nav-right-footer li a {
-	padding: 7px 16px;
-}
-
-#nav-right-footer a img {
-	max-height: 30px;
-	max-width: 30px;
 }
 
 /* Style for the entree of the week image */
