@@ -132,3 +132,9 @@ h2 {
 p {
     font-family: Athelas;
 }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	Width: 100%;
+}
